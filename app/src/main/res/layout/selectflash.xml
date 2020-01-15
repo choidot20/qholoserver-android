@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/flashselect"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7E7E7"
+    >
+
+    <Button
+        android:id="@+id/flashon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OnClick"
+        android:text="  flash on  "
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="5dp"
+        android:background="#D5D5D5"
+
+        />
+
+
+    <Button
+        android:id="@+id/flashoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OnClick"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="5dp"
+        android:text="  flash off  "
+        android:background="#D5D5D5"
+        />
+
+</LinearLayout>

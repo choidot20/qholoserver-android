@@ -1,0 +1,4 @@
+#Sat Nov 09 17:43:33 KST 2019
+base.0=D\:\\qholo1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
+path.0=classes.dex
+renamed.0=classes.dex

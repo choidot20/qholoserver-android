@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\skdk5\Desktop\qholo1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\skdk5\Desktop\qholo1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7ebfd70eb8898ea9589026b082d82fbebceab6a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\skdk5\Desktop\qholo1\app\libs\javase.jar"
+        jumboMode="false"
+        min-sdk-version="10"
+        optimize="true"
+        revision="26.0.2"
+        sha1="248a704db02432252e85e1507c26984be22677a3">
+        <dex dex="C:\Users\skdk5\Desktop\qholo1\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skdk5\Desktop\qholo1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4ebcbb24b70b4fabe3b16c54b62066e1b7216a7e">
+        <dex dex="C:\Users\skdk5\Desktop\qholo1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_aa81e492e3ce7758ef421311363c0068acdad2f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\skdk5\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="10"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\skdk5\Desktop\qholo1\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skdk5\Desktop\qholo1\app\libs\javase.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="248a704db02432252e85e1507c26984be22677a3">
+        <dex dex="C:\Users\skdk5\Desktop\qholo1\app\build\intermediates\transforms\dex\debug\folders\1000\2\javase_d0d5e239eee11470530dce39eb3ede2f5de7e42b\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="?android:attr/selectableItemBackground"
+
+    >
+  <FrameLayout
+    android:id="@+id/camera_preview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+      android:layout_alignParentBottom="true">
+
+
+  </FrameLayout>
+
+  <RadioButton
+      android:id="@+id/focus"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=""
+      android:layout_centerInParent="true"
+      android:layout_centerVertical="true"
+      android:layout_centerHorizontal="true" />
+
+  <!-- 이녀석은 그냥 터치를 입력 받을 투명한 뷰 이므로 사이즈도 match_parent입니다
+       알파 값을 설정하려면 API 14 이상이여야 합니다 (진저브레드에서는 안되요) -->
+
+    <RelativeLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#50000000"
+        android:baselineAligned="false"
+        >
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#50000000"
+        android:baselineAligned="false">
+      <Button
+          android:id="@+id/flashon"
+          android:layout_marginTop="20dp"
+          android:layout_width="70dp"
+          android:layout_height="40dp"
+          android:text="ON"
+          android:onClick="OnClick"
+
+          />
+
+      <Button
+          android:id="@+id/flashoff"
+          android:layout_marginTop="60dp"
+          android:layout_width="70dp"
+          android:layout_height="40dp"
+          android:text="OFF"
+          android:onClick="OnClick"
+
+          />
+
+
+        <ImageButton
+            android:id="@+id/touchListener"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="19dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/button2"
+            android:background="#00ff0000"
+            android:alpha="1"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
